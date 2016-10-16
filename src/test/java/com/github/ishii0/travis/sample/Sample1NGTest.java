@@ -16,7 +16,7 @@ public class Sample1NGTest {
     
     @Test
     public void failedTest() {
-        boolean expResult = false;
+        boolean expResult = true;
         boolean result = Sample1.method1();
         assertEquals(result, expResult);
     }
